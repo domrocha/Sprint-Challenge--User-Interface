@@ -277,11 +277,17 @@ header nav a {
 .about{
     display: block;
     margin-bottom: 15px;
+    border-bottom: 1px dotted black;
 }
 
-hr {
-    border-top: 1px dotted black;
+about p {
+    margin-bottom: 15px;
 }
+
+/* hr { */
+    /* border-top: 1px dotted black; */
+/* } */
+
 
 .container-about-page {
     display: flex;
@@ -294,6 +300,7 @@ hr {
     width: 375px;
     font-size: 12px;
     margin-bottom: 30px;
+    border-bottom: 1px dotted black;
 }
 
 .plan {
@@ -304,6 +311,7 @@ hr {
     width: 375px;
     font-size: 12px;
     margin-bottom: 30px;
+    border-bottom: 1px dotted black;
 }
 
 .working {
@@ -314,6 +322,7 @@ hr {
     width: 375px;
     font-size: 12px;
     margin-bottom: 30px;
+    border-bottom: 1px dotted black;
 }
 
 .office {
@@ -324,6 +333,8 @@ hr {
     width: 375px;
     font-size: 12px;
     margin-bottom: 30px;
+    border-bottom: 1px dotted black;
+
 }
 
 .meeting {
@@ -336,4 +347,5 @@ button {
     margin-top: 20px;
     border-radius: 4px;
     border: 1px solid black;
+    margin-bottom: 10px;
 }
